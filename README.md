@@ -5,3 +5,5 @@
 
 * SwiftUI
 * Combine (a bit)
+
+![Screenshot of Tip Calculator app.](tip_calc.png)
