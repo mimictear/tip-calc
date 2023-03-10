@@ -11,6 +11,11 @@
 		809C3DC229BB455E00049540 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3DC129BB455E00049540 /* ContentView.swift */; };
 		809C3DC429BB455F00049540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 809C3DC329BB455F00049540 /* Assets.xcassets */; };
 		809C3DC729BB455F00049540 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 809C3DC629BB455F00049540 /* Preview Assets.xcassets */; };
+		809C3DCE29BB538000049540 /* TipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3DCD29BB538000049540 /* TipViewModel.swift */; };
+		809C3DD029BB557500049540 /* CurrencyFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3DCF29BB557500049540 /* CurrencyFieldView.swift */; };
+		809C3DD329BB84A900049540 /* GradientBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3DD229BB84A900049540 /* GradientBackgroundView.swift */; };
+		809C3DD529BB85F200049540 /* SectionTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3DD429BB85F200049540 /* SectionTitleView.swift */; };
+		809C3DD729BB878700049540 /* WhiteStyleViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809C3DD629BB878700049540 /* WhiteStyleViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		809C3DC129BB455E00049540 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		809C3DC329BB455F00049540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		809C3DC629BB455F00049540 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		809C3DCD29BB538000049540 /* TipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewModel.swift; sourceTree = "<group>"; };
+		809C3DCF29BB557500049540 /* CurrencyFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFieldView.swift; sourceTree = "<group>"; };
+		809C3DD229BB84A900049540 /* GradientBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackgroundView.swift; sourceTree = "<group>"; };
+		809C3DD429BB85F200049540 /* SectionTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleView.swift; sourceTree = "<group>"; };
+		809C3DD629BB878700049540 /* WhiteStyleViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteStyleViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +61,9 @@
 		809C3DBE29BB455E00049540 /* TipCalc */ = {
 			isa = PBXGroup;
 			children = (
+				809C3DD129BB7F0A00049540 /* View */,
 				809C3DBF29BB455E00049540 /* TipCalcApp.swift */,
+				809C3DCD29BB538000049540 /* TipViewModel.swift */,
 				809C3DC129BB455E00049540 /* ContentView.swift */,
 				809C3DC329BB455F00049540 /* Assets.xcassets */,
 				809C3DC529BB455F00049540 /* Preview Content */,
@@ -65,6 +77,17 @@
 				809C3DC629BB455F00049540 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		809C3DD129BB7F0A00049540 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				809C3DCF29BB557500049540 /* CurrencyFieldView.swift */,
+				809C3DD229BB84A900049540 /* GradientBackgroundView.swift */,
+				809C3DD429BB85F200049540 /* SectionTitleView.swift */,
+				809C3DD629BB878700049540 /* WhiteStyleViewModifier.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +161,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				809C3DC229BB455E00049540 /* ContentView.swift in Sources */,
+				809C3DD029BB557500049540 /* CurrencyFieldView.swift in Sources */,
+				809C3DD729BB878700049540 /* WhiteStyleViewModifier.swift in Sources */,
+				809C3DCE29BB538000049540 /* TipViewModel.swift in Sources */,
 				809C3DC029BB455E00049540 /* TipCalcApp.swift in Sources */,
+				809C3DD329BB84A900049540 /* GradientBackgroundView.swift in Sources */,
+				809C3DD529BB85F200049540 /* SectionTitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

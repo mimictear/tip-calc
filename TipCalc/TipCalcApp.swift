@@ -2,7 +2,7 @@
 //  TipCalcApp.swift
 //  TipCalc
 //
-//  Created by ANDREY VORONTSOV on 10.03.2023.
+//  Created by ANDREW VORONTSOV on 10.03.2023.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct TipCalcApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: TipViewModel())
         }
     }
 }
